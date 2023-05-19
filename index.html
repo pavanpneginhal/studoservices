@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="StudoServices">
+    <link rel="icon" type="image/png" href="images/studoservices.png">
+    <title>StudoServices</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="index.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        src="images/studoservices.png"
+        alt="studoservices logo"
+        class="logo"
+      />
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li><a class="navbar-link home-link" href="#" >Home</a></li>
+          <li><a class="navbar-link about-link" href="/about.html">About</a></li>
+          <li><a class="navbar-link service-link" href="/service.html">Services</a></li>
+          <li><a class="navbar-link portfolio-link" href="#portfolio-section">Portfolio</a></li>
+          <li>
+            <a
+              class="navbar-link"
+              href="/contact.html"
+              target="_blank"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-navbar-btn">
+        <ion-icon
+          class="mobile-nav-icon"
+          name="menu-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+
+        <ion-icon
+          class="mobile-nav-icon"
+          name="close-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+      </div>
+    </header>
+
+    <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+    <main>
+      <section class="section-hero section">
+        <div class="container grid grid-two-col">
+          <div class="section-hero-data">
+            <p class="hero-top-data">Who are we</p>
+            <h1 class="hero-heading">StudoServices</h1>
+            <p class="hero-para">
+              StudoServices provides reliable, fast, and cost-effective technical support solutions for individuals and businesses
+            </p>
+            <div>
+              <a href="#" target="_blank" class="btn hireme-btn">Hire Us</a>
+            </div>
+          </div>
+
+          <div class="section-hero-image">
+            <img src="images/hero.jpg" alt="hero image" class="hero-img" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <!-- ======================================== 
+        works Section Start  
+    ========================================  -->
+    <section class="section section-portfolio" id="portfolio-section">
+      <div class="container">
+        <h2 class="common-heading">Our Latest works</h2>
+        <p>
+          At StudoServices, we specialize in providing reliable data science, cyber security, and software solutions to individuals and businesses. Our comprehensive services are designed to improve efficiency, productivity, and security, helping our clients achieve their technology goals.
+        </p>
+      </div>
+
+      <div class="p-btns">
+        <button class="btn p-btn " data-btn-num="1" >Cybersecurity</button>
+        <button class="btn p-btn " data-btn-num="2" >Data Science </button>
+        <button class="btn p-btn " data-btn-num="3" >AI/ML</button>
+      </div>
+      
+      <div class="container grid grid-three-col portfolio-images">
+        <div class="img-ovelay p-btn--1" >
+          <img src="images/folio/cys.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+            <a href="works/cys1.html" target="_blank"  class="common-heading">Project 1</a>
+          </div>
+        </div>
+
+        <div class="img-ovelay p-btn--3">
+          <img src="images/folio/ds1.jpg" loading="lazy" alt="portfolio images " />
+          <div class="overlay">
+             <a href="" target="_blank"  class="common-heading">Project 2</a>
+          </div>
+        </div>
+
+        <div class="img-ovelay p-btn--1">
+          <img src="images/folio/cys1.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+             <a href="works/cys1.html" target="_blank"  class="common-heading">Project 3</a>
+          </div>
+        </div>
+        <div class="img-ovelay p-btn--1">
+          <img src="images/folio/cys2.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+             <a href="works/cys1.html" target="_blank"  class="common-heading">Project 4</a>
+          </div>
+        </div>
+        <div class="img-ovelay p-btn--2">
+          <img src="images/folio/ai.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+             <a href="" target="_blank"  class="common-heading">Project 5</a>
+          </div>
+        </div>
+        <div class="img-ovelay p-btn--3">
+          <img src="images/folio/ds.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+             <a href="" target="_blank"  class="common-heading">Project 6</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================== 
+          work completed counter section Start  
+    ========================================  -->
+
+    <section class="section-work-data section ">
+      <div class="container grid grid-four-col">
+        <div>
+          <h2 data-number="2000" class="counter-numbers">0</h2>
+          <p>project completed</p>
+        </div>
+        <div>
+          <h2 data-number="6000" class="counter-numbers">0+</h2>
+          <p>Happy clients</p>
+        </div>
+        <div>
+          <h2 data-number="5000" class="counter-numbers">0+</h2>
+          <p>cups of coffee</p>
+        </div>
+        <div>
+          <h2 data-number="3000" class="counter-numbers">0+</h2>
+          <p>real professionals</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================== 
+          Our Service Section Start  
+    ========================================  -->
+    <section class="section-services section ">
+      <div class="container">
+        <h2 class="common-heading">Service Offers</h2>
+        <p>
+          Here are the various list of services we offer
+        </p>
+      </div>
+
+      <div class="container grid grid-three-col">
+        <div class="service-box">
+          <span class="material-icons">
+            https
+            </span>
+          <h3>Cyber Security</h3>
+          <p>
+            "We are a team of experienced security professionals dedicated to safeguarding your business from cyber threats."
+          </p>
+        </div>
+
+        <div class="service-box">
+          <span class="material-icons">
+            code
+            </span>
+          <h3>Front End Developer</h3>
+          <p>
+            "Their expertise as a front-end developer brings ideas to life with intuitive, responsive and engaging user interfaces."
+          </p>
+        </div>
+
+        <div class="service-box">
+          <span class="material-icons">
+            android
+            </span>
+          <h3>Android Developer</h3>
+          <p>
+            "We have devs that specialize in creating and maintaining Android apps using various programming languages and development tools."
+          </p>
+        </div>
+
+        <div class="service-box">
+          <span class="material-icons">
+            engineering
+            </span>
+          <h3>Data scientist</h3>
+          <p>
+            "We provide skilled data scientists who leverage data to extract insights and inform strategic business decisions."
+          </p>
+        </div>
+        <div class="service-box">
+          <span class="material-icons">
+            smart_toy
+            </span>
+          <h3>AI/ML</h3>
+          <p>
+            "We offer expert AI/ML professionals who utilize cutting-edge technology to develop intelligent solutions and help businesses optimize their operations."
+          </p>
+        </div>
+        <div class="service-box">
+          <span class="material-icons">
+            draw
+            </span>
+          <h3>Graphics Designer</h3>
+          <p>
+            "Our team of creative graphic designers crafts visually appealing designs that effectively communicate your brand's message and enhance your brand identity."
+          </p>
+        </div>
+      </div>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </section>
+
+    <!-- ======================================== 
+          Our Resume Section Start  
+    ========================================  -->
+    <section class="section-resume section " >
+      <div class="container grid grid-two-col">
+        <!-- resume left side  -->
+        <div class="resume-img">
+          <img src="images/lazy1.jpg" alt="Free lancers" 
+            data-src="images/biodata.jpg"
+            loading="lazy"
+            class="lazy-img"
+          />
+        </div>
+
+        <!-- resume right side  -->
+        <div class="resume-data">
+          <h2 class="common-heading">Meet Our Star FreeLancers</h2>
+          <p class="resume-para">Our Star FreeLancers</p>
+
+          <div class="resume-data-subsection">
+            <div class="resume-data-left">
+              <h3>Vaishnav A</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon>Cybersecurity
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Trivandrum, India
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button">Part-time</p>
+            </div>
+          </div>
+
+          <!-- 2nd work experience  -->
+          <div class="resume-data-subsection">
+          <div class="resume-data-left">
+            <h3>Janmejay S Purohit</h3>
+            <div class="grid grid-two-col">
+              <p>
+                <ion-icon name="business-outline"></ion-icon> Graphic Designer
+              </p>
+              <p>
+                <ion-icon name="location-outline"></ion-icon> Bloomington, US
+              </p>
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button">Part-time</p>
+          </div>
+        </div>
+
+          <!-- 3rd work experience  -->
+          <div class="resume-data-subsection">
+            <div class="resume-data-left">
+              <h3>Pavan P Neginhal</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> Front End Developer
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Bengaluru, India
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button">fulltime</p>
+            </div>
+          </div>
+
+          <!-- 3rd work experience  -->
+          <div class="resume-data-subsection">
+            <div class="resume-data-left">
+              <h3>Kiran</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> Data Scientist
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Bengaluru, India
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button">PART-TIME</p>
+            </div>
+          </div>
+
+          <!-- 4th work experience  -->
+          <div class="resume-data-subsection">
+            <div class="resume-data-left">
+              <h3>Vikram P</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> AI/ML specialist
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Chennai, India
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button">fulltime</p>
+            </div>
+          </div>
+          
+       
+          <div class="resume-data-subsection">
+            <div class="resume-data-left">
+              <h3>Pritheep</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> Android Developer
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Bengaluru, India
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button">fulltime</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+
+    
+    <!-- ======================================== 
+          Our Testimonial Section Start  
+    ========================================  -->
+
+    <section class="section section-testimonial ">
+        <div class="container">
+          <h2 class="common-heading">Happy Client works</h2>
+        </div>
+          <!-- Slider main container -->
+          <!-- Swiper -->
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>"StudoServices' cybersecurity services are exceptional. Their team of experts provided comprehensive solutions and recommendations to improve our security measures. I highly recommend them to anyone in need of top-notch cybersecurity solutions."</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img loading="lazy" src="images/clients/a.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Jacob</p>
+              <p>Entrepruner</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>"I recently hired StudoServices to help us with our data analysis needs and I am extremely impressed with their services. Their team of data scientists are highly skilled and provided us with valuable insights that helped us make informed decisions.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img loading="lazy" src="images/clients/b.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Selena</p>
+              <p>CEO (Salt comsmetics)</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>"StudoServices' front-end developers are highly skilled and delivered a responsive, intuitive, and engaging user interface that exceeded our expectations. I highly recommend them to anyone looking for exceptional front-end development services."</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img loading="lazy" src="images/clients/c.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Dua Gomez</p>
+              <p>Vlogger</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>StudoServices' AI/ML services are innovative and impressive. Their team of experts developed intelligent solutions tailored to our specific needs. I highly recommend them to anyone looking to implement AI/ML solutions to improve their business operations.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img loading="lazy" src="images/clients/d.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>David Bombell</p>
+              <p>Technical Analyst (ABC foundations)</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>"StudoServices delivered a polished, user-friendly Android app that exceeded my expectations. I highly recommend their reliable and efficient development services."</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img src="images/clients/e.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Dona</p>
+              <p>Freelancer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>"StudoServices' white hat hacker services are top-notch. Their team identified vulnerabilities in my network and provided actionable recommendations. I feel much more secure knowing that my network is protected against potential threats. Highly recommend their reliable cyber security solutions."</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img src="images/clients/f.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Nas X</p>
+              <p>Singer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>"StudoServices delivered a stunning, professional-looking website that perfectly met my requirements. Their team of skilled developers were responsive to my needs and provided valuable insights throughout the process."</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img src="images/clients/g.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Grace</p>
+              <p>Chef</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>"StudoServices' back-end development team delivered a robust and efficient solution that exceeded my expectations. They were responsive to my needs and provided valuable insights throughout the process. I highly recommend their top-quality back-end development services."</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img src="images/clients/h.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Justin</p>
+              <p>Entrepreneur</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+       
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+        </div>
+    </section>
+
+   <!-- ======================================== 
+         freelancing Section   
+    ========================================  -->
+
+    <section class="section section-freelancer ">
+      <div class="overlay"></div>
+      <div class="container">
+      <h2 >We are <span>available </span>for freelancing</h2>
+      <p>Whether you need a one-time project or ongoing support, our team of skilled professionals is ready to tackle your technical needs. Contact us today to discuss your project and learn how we can help you achieve your goals.</p>
+      <a href="/contact.html" class="btn"> HIRE US </a>
+      </div>
+    </section>
+
+       <!-- ======================================== 
+          Our  contact Us Section   
+    ========================================  -->
+
+      <section class="section section-contact ">
+        <div class="container">
+          <h2 class="common-heading">Any queries</h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+          <form action="https://formspree.io/f/xwkjzqlq"
+          method="POST">
+            <div class=" grid grid-two-col">
+              <input type="text" name="username" id="" required placeholder="Name" required autocomplete="off">
+              <input type="email" name="email" required placeholder="Email" required autocomplete="off">
+            </div>
+            <div>
+              <input type="text" name="subject" placeholder="Subject">
+            </div>
+             <div>
+               <textarea name="message" id="" placeholder="Message"></textarea>
+             </div>
+
+             <div>
+               <input type="submit" value="send message" class="btn">
+             </div>
+          </form>
+        </div>
+      </section>
+
+   <!-- ======================================== 
+          Our footer Section   
+    ========================================  -->
+
+    <footer class="section section-footer " >
+      <div class="container grid grid-four-col">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>StudoServices is a leading provider of technical solutions for businesses and individuals alike. With a commitment to delivering top-quality solutions and exceptional customer service, we specialize in data science, cybersecurity, website development, and more.</p>
+        </div>
+
+        <div class="f-links">
+           <h3>Links</h3>
+          <ul>
+            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="index.html">home</a></li>
+             <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="about.html">about</a></li>
+              <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="service.html">services</a></li>
+               <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">portfolio</a></li>
+                 <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="contact.html">Register</a></li>
+          </ul>
+        </div>
+
+         <div class="f-services">
+            <h3>Services</h3>
+          <ul>
+            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="about.html">Cybersecurity</a></li>
+             <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="about.html">Web development</a></li>
+              <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="about.html">Android App Development</a></li>
+           
+                <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="about.html">Front/Back End Developer</a></li>
+                 <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="about.html">Data analyst</a></li>
+          </ul>
+        </div>
+
+        <div class="f-address"> 
+          <h3>Have any Questions?</h3>
+          <address>
+            <div>
+              <p>  <span><ion-icon name="location-outline"></ion-icon></span> Bengaluru, India </p>
+            </div>
+
+            <div>
+              <p>  <span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+91123456789"> +91 9880068123 </a></p>
+            </div>
+
+            <div>
+              <p>  <span><ion-icon name="mail-outline"></ion-icon></span> <a href="mailto:vaishnavanilkumar1@gmail.com"> info@studoservices.com </a> </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="f-social-icons">
+          <a href="https://www.instagram.com/__vaishnav_a/" target="_blank">
+            <ion-icon class="icons" name="logo-instagram"></ion-icon>
+          </a>
+
+            <a href="https://discord.gg/xBGDDuUT" target="_blank">
+           <ion-icon class="icons" name="logo-discord"></ion-icon>
+          </a>
+
+            <a href="https://www.youtube.com/channel/UC5mKDDYoSXYwfb8It8AHkxA" target="_blank">
+           <ion-icon class="icons" name="logo-youtube"></ion-icon>
+          </a>
+        </div>
+
+        <div class="f-credits">
+          <p>Copyright ©2023 All rights reserved | CAD Project ❤</p>
+        </div>
+      </div>
+
+    </footer>
+
+
+    <!-- ======================================== 
+          Our JavaScript Section   
+    ========================================  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>

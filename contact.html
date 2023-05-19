@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="icon" type="image/png" href="images/studoservices.png">
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/studoservices.png " alt="supportly" class="logo" />
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li>
+            <a class="navbar-link home-link" href="/index.html" id="">Home</a>
+          </li>
+          <li>
+            <a class="navbar-link about-link" href="/about.html">About</a>
+          </li>
+          <li>
+            <a class="navbar-link service-link" href="/service.html"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a class="navbar-link portfolio-link" href="/index.html"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a class="navbar-link" href="/contact.html" target="_blank"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+
+    <!-- ======================================== 
+          Our  Cotnact Us Section   
+    ========================================  -->
+
+    
+    <section class="section section-contact section--hidden">
+      <div class="container">
+        <h2 class="common-heading">Register for Services</h2>
+      </div>
+
+      <div class="section-contact-main container">
+        <form name="form" id="form">
+          <div class="grid grid-two-col">
+            <input
+              type="text"
+              name="username"
+              id="username"
+              required
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id = "email"
+              required
+              placeholder="Email"
+              autocomplete="false"
+            />
+          </div>
+          <div>
+            <input type="text" name="subject" id="subject" placeholder="Subject" />
+          </div>
+          <div>
+            <input type="text" name="phone" id="phone" placeholder="Phone" />
+            </div>
+          <div>
+            <textarea name="message" id="message" placeholder="Service required with a gist of requirements"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Register" class="btn" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ======================================== 
+          Our footer Section   
+    ========================================  -->
+
+    <footer class="section section-footer section--hidden">
+      <div class="container grid grid-four-col">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>
+            StudoServices is a leading provider of technical solutions for businesses and individuals alike. With a commitment to delivering top-quality solutions and exceptional customer service, we specialize in data science, cybersecurity, website development, and more.
+          </p>
+        </div>
+
+        <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="index.html">home</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="about.html">about</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="service.html">service</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="index.html">portfolio</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="f-services">
+          <h3>Services</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Cybersecurity</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Web development</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Graphic Design</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Android App Development</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Front/Back End Developer</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Data analyst</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="f-address">
+          <h3>Have a Question?</h3>
+          <address>
+            <div>
+              <p>
+                <span><ion-icon name="location-outline"></ion-icon></span> Bengaluru ,
+                India
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><ion-icon name="call-outline"></ion-icon></span> +91
+                9880068123
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><ion-icon name="mail-outline"></ion-icon></span>
+                info@studoservices.com
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="f-social-icons">
+          <a href="https://www.instagram.com/__vaishnav_a/">
+            <ion-icon class="icons" name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="https://discord.gg/xBGDDuUT">
+            <ion-icon class="icons" name="logo-discord"></ion-icon>
+          </a>
+
+          <a href="https://www.youtube.com/channel/UC5mKDDYoSXYwfb8It8AHkxA">
+            <ion-icon class="icons" name="logo-youtube"></ion-icon>
+          </a>
+        </div>
+
+        <div class="f-credits">
+          <p>
+            Copyright ©2023 All rights reserved | CAD Project ❤
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ======================================== 
+          Our JavaScript Section   
+    ========================================  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+ 
+    <script>
+
+    const { createClient } = supabase
+
+    supabase = createClient('https://wmkgxlvakexgxqrgdbcn.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indta2d4bHZha2V4Z3hxcmdkYmNuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODQ0NDM1NjksImV4cCI6MjAwMDAxOTU2OX0.1R0he4bC3mF3jhlvpC8xox-8xv_buJIAN546Od_DDxE')
+      
+    const form = document.getElementById('form')
+    form.addEventListener('submit',async(event)=>{
+      event.preventDefault()
+      var submission = {
+        username: form.username.value,
+        email: form.email.value,
+        subject: form.subject.value,
+        phone: form.phone.value,
+        message: form.message.value
+      }
+      const { error } = await supabase.from('entries').insert([
+        submission
+      ], {returning: 'minimal'})
+      if (error){
+        Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!',
+})        
+console.log(error)  
+    } else {
+      Swal.fire(
+        'Registered!',
+        'You have been registered successfully. Will contact you soon.',
+        'success'
+) 
+form.reset()
+}
+
+      form.Inputs.forEach(element => {
+        element.value = ''
+      })
+    });
+</script>
+  </body>
+</html>
